@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+#wrapper {position:relative;width:100%;min-width:1024px;padding-top:40px;}
+
+#header {position:fixed;top:0;left:0;width:100%;height:40px;background:#333;z-index:100;}
+#header .hd_title {position:absolute;top:8px;left:12px;color:#fff;font-size:15px;font-weight:normal;}
+
+.top_visual {width:100%;height:300px;background:url(../img/visual_img.jpg) no-repeat center center;background-size:cover;text-indent:-9999px;}
+
+#container {width:100%;}
+
+#content {width:100%;margin-top:-40px;background:#eaeaea;border-radius:40px 40px 0 0;}
+
+#content .notification {width:100%;margin-bottom:20px;padding:20px;background:#fff;border-radius:40px;box-sizing:border-box;text-align:center;font-size:24px;font-weight:bold;}
+
+#content .pf_list {width:100%;margin:0 auto;padding:40px;background:#fff;border-radius:40px;box-sizing:border-box;}
+
+.pf_list > ul {width:100%;max-width:1280px;margin:0 auto;font-size:0;display:flex;flex-wrap:wrap;}
+.pf_list > ul > li {display:inline-block;width:32%;margin:0 0.5% 0 0.5%;padding:20px 30px;border-bottom:1px solid #ddd;box-sizing:border-box;font-size:14px;vertical-align:top;}
+
+.pf_list ul li .pf_item {position:relative;}
+.pf_list ul li .pf_item .pf_title {margin-bottom:4px;line-height:1.25em;font-size:18px;}
+.pf_list ul li .pf_item .pf_title .site_link > i {margin-left:4px;font-size:14px;vertical-align:middle;}
+.pf_list ul li .pf_item .pf_txt {margin:6px 0;color:#666;font-size:12px;}
+.pf_list ul li .pf_item .pf_work_date {display:inline-block;background:#fff;border-radius:10px;line-height:1;color:#666;font-size:14px;}
+.pf_list ul li .pf_item .pf_work_date:before {display:inline-block;margin-right:5px;font-family:"Font Awesome 5 Pro";font-weight:400; content:"\f073";vertical-align:top;}
+
+.pf_list ul li .pf_item .pf_site_thum {position:absolute;top:50%;right:0;width:100px;transform:translateY(-50%);}
+.pf_list ul li .pf_item .pf_site_thum img {max-width:100%;}
+
+.list_cate_icon {width:100%;margin-top:10px;padding-top:5px;border-top:1px dashed #ccc;}
+.list_cate_icon li {display:inline-block;line-height:1;}
+.list_cate_icon li > span {display:block;margin-top:5px;padding:4px 8px;background:#eee;border-radius:6px;line-height:1;text-align:center;color:#fff;font-size:11px;vertical-align:top;}
+.list_cate_icon li .cate_one {background:#337ab7;}
+.list_cate_icon li .cate_two {background:#5cb85c;}
+.list_cate_icon li .cate_three {background:#5bc0de;}
+.list_cate_icon li .cate_four {background:#f0ad4e;}
+.list_cate_icon li .cate_12 {background:#d9534f;}
